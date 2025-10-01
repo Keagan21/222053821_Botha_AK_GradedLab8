@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { View, Text, FlatList, TouchableOpacity } from "react-native";
 import { collection, onSnapshot } from "firebase/firestore";
-import { db } from "../firebase";
+import { db } from "../fireBase";
 import { ProjectContext } from "../context/useContext";
 import { useNavigation } from "@react-navigation/native";
 
