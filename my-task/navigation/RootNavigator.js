@@ -2,7 +2,8 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ProjectScreens from "../screens/ProjectScreens";
-import TaskScreens from "../screens/TaskScreen";
+import TaskScreens from "../screens/TaskScreens";
+
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
