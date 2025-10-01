@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { View, Text, FlatList, Button, TextInput } from "react-native";
-import { db } from "../firebase";
+import { db } from "./firebase";
 import { ProjectContext } from "../context/useContext";
 import { 
   doc, collection, onSnapshot, addDoc, deleteDoc, updateDoc, getDoc 
